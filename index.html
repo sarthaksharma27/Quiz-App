@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title></title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+	<nav class="navbar">
+		<ul>
+		  <li>View Highscores<span class="material-symbols-outlined">
+			trophy
+			</span></li>
+		  <li class="last">Time: <span class="time"></span></li>
+		</ul>
+	</nav>	  
+    <div class="main">
+        <h2>Coding Quiz challenge</h2>
+        <p>Try to answer following code-related question within the time limit. </p>
+        <p>Keep in mind that wrong answer penalize your score/time by Ten second!</p>
+        <button class="start-button">Start Quiz</button>
+    </div>
+
+	<!-- For quiz -->
+
+	<div class="quiz-container" style="display: none;">
+        <div class="question">
+            <h2>Question 1:</h2>
+        </div>
+        <div class="options">
+            <button class="option">Option A</button>
+            <button class="option">Option B</button>
+            <button class="option">Option C</button>
+            <button class="option">Option D</button>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
